@@ -11,7 +11,7 @@ $(document).ready(function(e){
 			datos="usuario"+U+"&password"+P;
 			$.ajax({
 				type:"post",
-				url:"192.168.1.10/sitio6/Log_in_m.php/",
+				url:"192.168.1.170/sitio6/Log_in_m.php/",
 				data: datos
 			}).done(function(msg){
 				alert(msg);
